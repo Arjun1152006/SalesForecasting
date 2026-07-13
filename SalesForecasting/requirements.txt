@@ -4,28 +4,28 @@
 # ==========================================================
 
 # --- Core data handling ---
-pandas==2.2.2
-numpy==1.26.4
+#pandas==2.2.2
+#numpy==1.26.4
 
 # --- Time series & statistics ---
-statsmodels==0.14.2
-prophet==1.1.5          # Requires cmdstanpy backend; see README for install notes
+#statsmodels==0.14.2
+#prophet==1.1.5          # Requires cmdstanpy backend; see README for install notes
 
 # --- Machine learning ---
-scikit-learn==1.5.0
-xgboost==2.0.3
-joblib==1.4.2
+#scikit-learn==1.5.0
+#xgboost==2.0.3
+#joblib==1.4.2
 
 # --- Visualization ---
-matplotlib==3.9.0
-seaborn==0.13.2
-plotly==5.22.0
+#matplotlib==3.9.0
+#seaborn==0.13.2
+#plotly==5.22.0
 
 # --- Dashboard ---
-streamlit==1.36.0
+#streamlit==1.36.0
 
 # --- Reporting ---
-python-docx==1.1.2
+#python-docx==1.1.2
 
 # --- Notebook ---
 #jupyter==1.0.0
@@ -33,5 +33,40 @@ python-docx==1.1.2
 #nbformat==5.10.4
 
 # --- Utilities ---
-python-dateutil==2.9.0
-tqdm==4.66.4
+#python-dateutil==2.9.0
+#tqdm==4.66.4
+
+
+
+# ==========================================================
+# End-to-End Sales Forecasting & Demand Intelligence System
+# Streamlit Community Cloud Compatible Requirements
+# ==========================================================
+
+# Dashboard
+streamlit
+
+# Core data handling
+pandas
+numpy
+
+# Time series
+statsmodels
+prophet
+
+# Machine Learning
+scikit-learn
+xgboost
+joblib
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Reporting
+python-docx
+
+# Utilities
+python-dateutil
+tqdm
